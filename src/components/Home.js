@@ -3,6 +3,7 @@ import React from 'react'
 import image from '../images/icon.png'
 import Typist from 'react-typist';
 import About from './About'
+import Footer from './Footer'
 
 class Home extends React.Component{
   componentDidMount(){
@@ -26,10 +27,9 @@ class Home extends React.Component{
             </a>
           </div>
         </div>
-        <div>
-          <About /> 
-          <ProjectsContainer />
-        </div>
+        <About /> 
+        <ProjectsContainer />
+        <Footer />
       </div>
     )
   }

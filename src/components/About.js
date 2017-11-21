@@ -18,6 +18,7 @@ class About extends React.Component{
             <img src="" alt="" className="about__img col-md-4"/>
           </div>
         </div>
+        <div className="break"></div>
       </div>
     )
   }

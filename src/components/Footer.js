@@ -1,16 +1,19 @@
 import React from 'react';
+import github from '../images/github.png'
+import email from '../images/email.png'
 
 class Footer extends React.Component{
   render(){
     return(
-      <div class="footer">
-        <div id="footer-icons">
-          <span>
-            <a id="github-link" href="https://github.com/nickharvey27">
+      <div className="footer">
+        <div className="footer__icons-container">
+          <span >
+            <a className="footer__icon" id="github-link" href="https://github.com/nickharvey27">
+              <img src={github} alt=""/>
             </a>
 
-            <a id="email-link" href="mailto:nharvey278@gmail.com">
-
+            <a className="footer__icon" id="email-link" href="mailto:nharvey278@gmail.com">
+              <img src={email} alt=""/>
             </a>
           </span>
         </div>

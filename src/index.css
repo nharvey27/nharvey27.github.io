@@ -126,3 +126,15 @@ svg{
   margin: 0px 6px;
 }
 
+
+.footer__icons-container{
+  background-color: #0E66B2;
+  text-align: center;
+}
+.footer__icon{
+  margin: 0px 12px;
+}
+
+.footer__icon > img{
+  width: 6em;
+}
