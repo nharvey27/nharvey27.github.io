@@ -1,7 +1,7 @@
 {
   "name": "nickharvey27.github.io",
   "version": "0.1.0",
-  "homepage": "https://nickharvey27.github.io/my-app",
+  "homepage": "https://nickharvey27.github.io/portfolio",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.1.0",
