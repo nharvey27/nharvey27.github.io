@@ -56,7 +56,7 @@ class Project extends React.Component{
               </div>
               <div className="project__description-container col-md-10 col-md-offset-1">
                 <p className="project__description">
-                  Dex is a Pokexdex with the origial 151 Pokemon. It is a RESTFUl API written with 
+                  Dex is a Pokexdex with the original 151 Pokemon. It is a RESTFUl API written with 
                   Ruby On Rails with Postgresql as the database. The Front-End is written with React.
                   Dex is deployed on Heroku
                 </p>
