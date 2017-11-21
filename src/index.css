@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+canvas{
+  position: absolute;
+  z-index: 5
+}
+
+svg{
+  transform: scale(0.2)
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  background-image: url('./images/space2.jpg');
+  background-size: 100%
+}
+
+.Name{
+  color: white;
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;  
+  position: absolute;
+  margin: auto;
+  top: 36%;
+  width: 100%;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+}
+
+.home__icon{
+  position: absolute;
+  margin: auto;
+  top: 38%;
+  text-align: center;
+  left: 47.5%
+}
+
+.home__icon:after{
+  content: "hi";
+  color: purple;
+  border-radius: 50%;
+}
+
+.Typist{
+  display: inline;
+}
+
+.glyphicon{
+  display: flow-root;
+  margin-top: 12px;
+}
+
+#glyphicon span{
+  color: white;
+  opacity: 0;  
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+   -ms-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+       transition: opacity 2s ease-in;
+}
+
+#glyphicon span.load{
+  opacity: 1;
+}
+
+.about{
+  margin: 48px auto ;
+}
+
+.about__header{
+  margin: 72px 0px;
+  color: #0C5899;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.about__description{
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.project{
+  border: 1px solid grey;
+  border-radius: 2px;
+  height: 600px;
+  margin: 48px 0px;
+  padding-top: 24px;
+}
+
+.project__title{
+  text-align: center;
+  opacity: .80
+}
+
+.project__image-container{
+  margin-top: 24px;
+}
+
+.project__image{
+  width: 100%;
+}
+
+.project__description{
+  font-family: Roboto;
+  font-size: 18px;
+  opacity: .80;
+  text-align: center;
+  margin-top: 48px;
+  line-height: 32px;
+}
+
+.project__links-container{
+  margin-top: 24px;
+  text-align: center;
+}
+
+.btn-default{
+  margin: 0px 6px;
+}
+
