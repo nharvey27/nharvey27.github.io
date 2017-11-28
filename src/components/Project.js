@@ -12,25 +12,6 @@ class Project extends React.Component{
         <div className="container">
             <div className="col-md-8 col-md-offset-2">
             <div className="project">
-              <ProjectTitle title="Daily News" />
-              <div className="project__image-container col-md-6 col-md-offset-3">
-                <ProjectImage image={dailynews}/>
-              </div>
-              <div className="project__description-container col-md-10 col-md-offset-1">
-                <p className="project__description">
-                  Daily News is a news aggregator of many major news stations.
-                  It is built with React, Redux and multiple other Javascript Ecosystem tools. 
-                  It is styled beautifly with the Semantic-UI library.
-                  Daily News is deployed on Heroku.
-                </p>
-              </div>
-              <div className="project__links-container col-md-6 col-md-offset-3">
-                <a className="btn btn-default" href="https://shinbun.herokuapp.com/">Demo</a>
-                <a className="btn btn-default" href="https://github.com/nickharvey27/Daily-News">Github</a>
-              </div>
-            </div>
-
-            <div className="project">
               <ProjectTitle title="Sound X" />
               <div className="project__image-container col-md-6 col-md-offset-3">
                 <ProjectImage image={soundx}/>
@@ -49,6 +30,25 @@ class Project extends React.Component{
               </div>
             </div>
 
+            <div className="project">
+              <ProjectTitle title="Daily News" />
+              <div className="project__image-container col-md-6 col-md-offset-3">
+                <ProjectImage image={dailynews}/>
+              </div>
+              <div className="project__description-container col-md-10 col-md-offset-1">
+                <p className="project__description">
+                  Daily News is a news aggregator of many major news stations.
+                  It is built with React, Redux and multiple other Javascript Ecosystem tools. 
+                  It is styled beautifly with the Semantic-UI library.
+                  Daily News is deployed on Heroku.
+                </p>
+              </div>
+              <div className="project__links-container col-md-6 col-md-offset-3">
+                <a className="btn btn-default" href="https://shinbun.herokuapp.com/">Demo</a>
+                <a className="btn btn-default" href="https://github.com/nickharvey27/Daily-News">Github</a>
+              </div>
+            </div>
+            
             <div className="project">
               <ProjectTitle title="Dex" />
               <div className="project__image-container col-md-6 col-md-offset-3">
