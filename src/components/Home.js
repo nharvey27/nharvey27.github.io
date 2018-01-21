@@ -3,12 +3,12 @@ import React from "react"
 import Typist from "react-typist"
 import About from "./About"
 import Footer from "./Footer"
-
+3
 class Home extends React.Component {
   componentDidMount() {
     setTimeout(function() {
       document.getElementById("glyphicon").children[0].className += " load"
-    }, 1500)
+    }, 2000)
   }
 
   render() {

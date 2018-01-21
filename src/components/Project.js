@@ -11,52 +11,52 @@ class Project extends React.Component {
       <div>
         <div className="container">
           <div className="col-md-12">
-            <div className="project col-md-6">
+            <div className="project col-md-4">
               <ProjectTitle title="Sound X" />
-              <div className="project__image-container col-md-6 col-md-offset-3">
-                <ProjectImage image={soundx} />
+              <div className="project__image-container col-md-12">
+                <a href="https://soundx.herokuapp.com/">
+                  <ProjectImage image={soundx} />
+                </a>
               </div>
               <div className="project__description-container col-md-10 col-md-offset-1">
                 <p className="project__description">
-                  Sound X is a Soundcloud Client built utilzing React and Redux. Its features also include a dynamic search and endless pagination. Sound X also
-                  uses SASS for it's CSS preprocessor. Sound X also uses BEM methodology to structure it's CSS.
+                  Sound X is a Soundcloud Client built utilzing React and Redux. Its features also include a dynamic search and endless pagination, and a music
+                  player using HTML5.
                 </p>
               </div>
               <div className="project__links-container col-md-6 col-md-offset-3">
-                <a className="btn btn-default" href="https://soundx.herokuapp.com/">
-                  Demo
-                </a>
                 <a className="btn btn-default" href="https://github.com/nickharvey27/SoundX">
                   Github
                 </a>
               </div>
             </div>
 
-            <div className="project col-md-6">
+            <div className="project col-md-4">
               <ProjectTitle title="Daily News" />
-              <div className="project__image-container col-md-6 col-md-offset-3">
-                <ProjectImage image={dailynews} />
+              <div className="project__image-container col-md-12">
+                <a href="https://shinbun.herokuapp.com/">
+                  <ProjectImage image={dailynews} />
+                </a>
               </div>
               <div className="project__description-container col-md-10 col-md-offset-1">
                 <p className="project__description">
                   Daily News is a news aggregator of many major news stations. It is built with React, Redux and multiple other Javascript Ecosystem tools. It
-                  is styled beautifly with the Semantic-UI library. Daily News is deployed on Heroku.
+                  is styled beautifly with the Semantic-UI library.
                 </p>
               </div>
               <div className="project__links-container col-md-6 col-md-offset-3">
-                <a className="btn btn-default" href="https://shinbun.herokuapp.com/">
-                  Demo
-                </a>
                 <a className="btn btn-default" href="https://github.com/nickharvey27/Daily-News">
                   Github
                 </a>
               </div>
             </div>
 
-            <div className="project col-md-6">
+            <div className="project col-md-4">
               <ProjectTitle title="Dex" />
-              <div className="project__image-container col-md-6 col-md-offset-3">
-                <ProjectImage image={pokedex} />
+              <div className="project__image-container col-md-12">
+                <a href="http://harveypokedex.herokuapp.com/">
+                  <ProjectImage image={pokedex} />
+                </a>
               </div>
               <div className="project__description-container col-md-10 col-md-offset-1">
                 <p className="project__description">
