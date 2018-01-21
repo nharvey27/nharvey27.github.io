@@ -1,33 +1,33 @@
-import ProjectsContainer from './ProjectsContainer'
-import React from 'react'
-import image from '../images/icon.png'
-import Typist from 'react-typist';
-import About from './About'
-import Footer from './Footer'
+import ProjectsContainer from "./ProjectsContainer"
+import React from "react"
+import Typist from "react-typist"
+import About from "./About"
+import Footer from "./Footer"
 
-class Home extends React.Component{
-  componentDidMount(){
+class Home extends React.Component {
+  componentDidMount() {
     setTimeout(function() {
-      document.getElementById("glyphicon").children[0].className += " load";      
-    }, 1500);
+      document.getElementById("glyphicon").children[0].className += " load"
+    }, 1500)
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <div>
         <div className="App">
-          <canvas> </canvas>
           <div className="Name">
             <span>Hi, </span>
-            <Typist avgTypingDelay={120} startDelay={600} >
-              I'm Nick
+            <Typist avgTypingDelay={80} startDelay={600}>
+              I'm Nick. I build Web Applications.
             </Typist>
-            <a className="glyphicon" id="glyphicon" href="#">
-              <span id="down-click" className="glyphicon glyphicon-arrow-down"> </span>
-            </a>
+            <p className="glyphicon" id="glyphicon">
+              <span id="down-click" className="glyphicon glyphicon-arrow-down">
+                {" "}
+              </span>
+            </p>
           </div>
         </div>
-        <About /> 
+        <About />
         <ProjectsContainer />
         <Footer />
       </div>
