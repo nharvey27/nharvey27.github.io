@@ -102,6 +102,7 @@ body {
 
 .project__image {
   border-radius: 6px;
+  height: 18rem;
   width: 100%;
 }
 

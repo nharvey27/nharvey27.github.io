@@ -15,7 +15,6 @@ class About extends React.Component {
                 email!
               </a>
             </p>
-            <img src="" alt="" className="about__img col-md-4" />
           </div>
         </div>
       </div>
