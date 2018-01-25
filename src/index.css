@@ -5,7 +5,6 @@ body {
 }
 
 .hero {
-  background-image: url(./images/home1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #252a30;
@@ -17,9 +16,11 @@ body {
   color: white;
   font-size: 56px;
   font-weight: 700;
+  left: 0;
   margin: auto;
   max-width: 800px;
-  position: relative;
+  position: absolute;
+  right: 0;
   text-align: center;
   top: 36%;
   width: 100%;

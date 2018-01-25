@@ -3,7 +3,7 @@ import Footer from "./Footer"
 import ProjectsContainer from "./ProjectsContainer"
 import React from "react"
 import Typist from "react-typist"
-
+import home1 from "../images/home1.jpg"
 class Home extends React.Component {
   componentDidMount() {
     setTimeout(function() {
@@ -14,7 +14,8 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <div className="hero">
+        <div className="">
+          <img src={home1} alt="" className="hero" />
           <div className="name">
             <span>Hi, </span>
             <Typist avgTypingDelay={80} startDelay={600}>
