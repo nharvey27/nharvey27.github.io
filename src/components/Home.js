@@ -1,16 +1,11 @@
-import About from "./About"
-import Footer from "./Footer"
-import ProjectsContainer from "./ProjectsContainer"
-import React from "react"
-import Typist from "react-typist"
-import home1 from "../images/home1.jpg"
-class Home extends React.Component {
-  componentDidMount() {
-    setTimeout(function() {
-      document.getElementById("glyphicon").children[0].className += " load"
-    }, 2000)
-  }
+import About from './About';
+import Footer from './Footer';
+import ProjectsContainer from './ProjectsContainer';
+import React from 'react';
+import Typist from 'react-typist';
+import home1 from '../images/home1.jpg';
 
+class Home extends React.Component {
   render() {
     return (
       <div>
@@ -23,7 +18,7 @@ class Home extends React.Component {
             </Typist>
             <p className="glyphicon" id="glyphicon">
               <span id="down-click" className="glyphicon glyphicon-arrow-down">
-                {" "}
+                {' '}
               </span>
             </p>
           </div>
@@ -32,8 +27,8 @@ class Home extends React.Component {
         <ProjectsContainer />
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default Home
+export default Home;

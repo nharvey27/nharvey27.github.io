@@ -13,6 +13,7 @@
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!--
       N3otice the use of %PUBLIC_URL% in the tags above.
@@ -44,6 +45,46 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <script src='../src/mb/assets/js/bootstrap.min.js'></script>
+  <script src='../src/mb/assets/js/material.js'></script>
+  <script src='../src/mb/assets/js/ripples.js'></script>
+  <script src="../src/mb/assets/js/nouislider.min.js"></script>
+  <script> $.material.ripples()</script>
+  <script> $.material.radio()</script>
+  <script>$(function () { $('[data-toggle="popover"]').popover() })</script>
+  <script>
+    var sliderSingle = document.getElementById('slider-single');
+    noUiSlider.create(sliderSingle, {
+      start: [20],
+      connect: true,
+      range: {
+        'min': 0,
+        'max': 100
+      }
+    });
+
+    var sliderDougle = document.getElementById('slider-double');
+    noUiSlider.create(sliderDougle, {
+      start: [40, 80],
+      connect: true,
+      range: {
+        'min': 0,
+        'max': 100
+      }
+    });
+  </script>
+
+  <script>
+    $('.dropdown').on('show.bs.dropdown', function () {
+      $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+    });
+
+    $('.dropdown').on('hide.bs.dropdown', function () {
+      $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+    });
+
+  </script>
 </body>
 
 </html>
