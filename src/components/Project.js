@@ -40,7 +40,7 @@ class Project extends React.Component {
             </div>
 
             <div className="project col-md-4">
-              <ProjectTitle title="Cryptographor" />
+              <ProjectTitle title="Cryptographer" />
               <div className="project__image-container col-md-12">
                 <a href="https://cryptographor.herokuapp.com/">
                   <ProjectImage image={cr} />
