@@ -25,7 +25,7 @@ class Project extends React.Component {
               <div className="project__description-container col-md-10 col-md-offset-1">
                 <p className="project__description">
                   Sound X is a Soundcloud Client built utilzing React, Redux and
-                  the Soundcloud API. Its features also include a dynamic
+                  the Soundcloud API. Its features include a dynamic
                   search, endless pagination, and a music player using HTML5.
                 </p>
               </div>

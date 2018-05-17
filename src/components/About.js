@@ -10,8 +10,8 @@ class About extends React.Component {
             <p className="about__description">
               Hello! My name is Nick Harvey. I am a Front-End Developer with a
               focus on React and all things Javascript. I love programming and
-              it has been a passion of mine for three years now. If you are on
-              the lookout for a highly motivated and passionate developer send
+              it has been a passion of mine for three years now. If you are in search of
+              a highly motivated and passionate developer send
               me an
               <a id="github-link" href="mailto:nharvey278@gmail.com">
                 {' '}
