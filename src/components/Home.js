@@ -10,13 +10,13 @@ class Home extends React.Component {
     return (
       <div>
         <div className="">
-          <img src={home1} alt="" className="hero" />
+          <div className="hero" > </div>
           <div className="name">
             <span>Hi, </span>
             <Typist avgTypingDelay={80} startDelay={600}>
               I'm Nick. I build Web Applications.
             </Typist>
-            <p className="glyphicon" id="glyphicon">
+            <p onClick={ () => window.scroll({top: window.innerHeight, bottom: 0, behavior: "smooth" })} className="glyphicon" id="glyphicon">
               <span id="down-click" className="glyphicon glyphicon-arrow-down">
                 {' '}
               </span>
