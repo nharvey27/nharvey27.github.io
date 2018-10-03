@@ -3,29 +3,40 @@ import Footer from './Footer';
 import ProjectsContainer from './ProjectsContainer';
 import React from 'react';
 import Typist from 'react-typist';
-import home1 from '../images/home1.jpg';
+import Exp from './Exp'
 
 class Home extends React.Component {
   render() {
     return (
-      <div>
-        <div className="">
+      <div className="container-fluid">
+        <div className="row">
           <div className="hero" > </div>
           <div className="name">
-            <span>Hi, </span>
-            <Typist avgTypingDelay={80} startDelay={600}>
-              I'm Nick. I build Web Applications.
-            </Typist>
+            <p>Hi, I'm Nick. 
+            </p>
+            <p>
+            I build Web Applications.
+            </p>
             <p onClick={ () => window.scroll({top: window.innerHeight, bottom: 0, behavior: "smooth" })} className="glyphicon" id="glyphicon">
-              <span id="down-click" className="glyphicon glyphicon-arrow-down">
+              <span id="down-click" className="glyphicon glyphicon-arrow-down ">
                 {' '}
               </span>
             </p>
           </div>
         </div>
+     
+      <div className="row">
+        <Exp />
+      </div>
+      <div className="row">
         <About />
+      </div>
+      <div className="row">
         <ProjectsContainer />
+      </div>
+      <div className="row">
         <Footer />
+      </div>
       </div>
     );
   }
